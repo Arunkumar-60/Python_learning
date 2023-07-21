@@ -1,17 +1,23 @@
 # WAP (create a class and get all possible distinct subsets from the set)
 
+# Python Program to Print
+# all subsets of given size of a set
+ 
+import itertools
+# def findsubsets(s, n):
+def findsubsets(s, n):
+    return [set(i) for i in itertools.combinations(s, n)]
+     
+# Driver Code
+s = {1, 2, 3, 4}
+
 l=[]
-u=int(input("enter number of numbers"))
+for z in range(len(s)):
+    l.append((findsubsets(s, z)))
 
-for i in range(u):
-    l.append(int(input("enter a number  :")))
+for i in range(len(l)):
+    print(l[i],end="")
 
-k=set(int(i) for i in l)
-
-j=[]
-
-for x in k:
-    j.append(int(x))
 # //set of numbers given is in the list j 
 
 

@@ -4,7 +4,7 @@
 # execute all widgets
 import sys
 
-from tkinter import *
+from tkinter import Tk
 mp=Tk()
 mp.title("first GUI app")
 mp.geometry("600X600")
