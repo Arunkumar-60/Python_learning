@@ -5,6 +5,7 @@
 import sys
 
 from tkinter import *
+
 mp=Tk()
 mp.title("first GUI app")
 mp.geometry("600X600")
