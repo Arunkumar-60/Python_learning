@@ -128,3 +128,4 @@ class lists:
 lists.display()
 lists.append(0,2)
 lists.remove(1)
+

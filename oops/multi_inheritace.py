@@ -39,8 +39,9 @@ class C(A,B):
 
 obj=C()
 # we can call any call as the class c has inheritated the properties
-
+print(2)
 obj.methodA()
+print(1)
 # here upon callinf ther class only first parent with that specified method is called
 obj.methodC()
 obj.methodA()
